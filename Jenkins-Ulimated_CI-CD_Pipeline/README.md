@@ -1,17 +1,20 @@
-# Jenkins-Zero-To-Hero
-
-Are you looking forward to learn Jenkins right from Zero(installation) to Hero(Build end to end pipelines)? then you are at the right place. 
+# Jenkins-Ulimate-CI-CD Pipeline
 
 ## Installation on EC2 Instance
 
 
 Install Jenkins, configure Docker as agent, set up cicd, deploy applications to k8s and much more.
 
+<img width="927" height="555" alt="aws_ec2" src="https://github.com/user-attachments/assets/7a5bfab0-a439-4014-ba0c-f7a48a40d820" />
+
+
 ## AWS EC2 Instance
 
 - Go to AWS Console
 - Instances(running)
 - Launch instances
+
+<img width="1913" height="315" alt="inbound_rules" src="https://github.com/user-attachments/assets/519c910c-a11e-4e4f-bae5-3b8d34843558" />
 
 
 ### Install Jenkins.
@@ -54,6 +57,8 @@ sudo apt-get install jenkins
 - Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed `All traffic`).
 
 
+<img width="1887" height="865" alt="unlock_jenkins" src="https://github.com/user-attachments/assets/ebaee1dd-8e20-4f4d-828f-fa9c8ec6d7dd" />
+
 ### Login to Jenkins using the below URL:
 
 http://<ec2-instance-public-ip-address>:8080    [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
@@ -70,12 +75,20 @@ After you login to Jenkins,
 
 ### Click on Install suggested plugins
 
+<img width="1893" height="867" alt="jenkins_install_plugin" src="https://github.com/user-attachments/assets/bfc438c5-7154-41b1-b731-104688076301" />
+
+<img width="1896" height="870" alt="jenkins_install_plugin_2" src="https://github.com/user-attachments/assets/0ce3cf4d-ddf7-49dc-8c44-c1ec5d9f047f" />
 
 Wait for the Jenkins to Install suggested plugins
 
+
+<img width="1400" height="867" alt="jenkins_create_firstadmin" src="https://github.com/user-attachments/assets/cb669310-4472-4a28-a0b2-4df5640d708b" />
+
 Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
-Jenkins Installation is Successful. You can now starting using the Jenkins 
+Jenkins Installation is Successful. You can now starting using the Jenkins
+
+<img width="702" height="316" alt="jenkins_successfully_installed" src="https://github.com/user-attachments/assets/957d5f31-a491-466b-b762-e084eac41d5a" />
 
 ## Install the Docker Pipeline plugin in Jenkins:
 
