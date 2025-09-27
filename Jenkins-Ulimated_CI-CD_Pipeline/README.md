@@ -1,5 +1,19 @@
 # Jenkins-Ulimate-CI-CD Pipeline
 
+workflow -> CI
+
+<img width="1670" height="1019" alt="image" src="https://github.com/user-attachments/assets/abd8cb73-729d-4bf0-a6ab-ced35c0f610a" />
+
+workflow -> CD
+
+<img width="1671" height="1016" alt="image" src="https://github.com/user-attachments/assets/1195b00c-9608-4b9b-99f1-8a2a04ff1b15" />
+
+Complete Workflow 
+
+
+<img width="1321" height="659" alt="Workflow" src="https://github.com/user-attachments/assets/a90f49fd-1b95-491c-a7c4-220f8af2bba2" />
+
+
 ## Installation on EC2 Instance
 
 
